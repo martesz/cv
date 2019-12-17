@@ -1,3 +1,5 @@
+/* tag selectors */
+
 body {
   background-color: #E1EAE7;
 }
@@ -15,4 +17,14 @@ h1 {
 
 h3 {
   color: #4BB19B;
+}
+
+/* class selectors */
+
+.workExperienceTable tr:hover {
+  background-color: #F6F8F7
+}
+
+.skillsTable tr:hover {
+  background-color: #F6F8F7
 }
