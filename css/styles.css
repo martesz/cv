@@ -3,43 +3,72 @@ body {
   margin: 0;
   text-align: center;
   font-family: 'Merriweather Sans', sans-serif;
+  color: #40514E;
 }
 
 h1 {
-  margin-top: 0;
+  font-size: 5.625rem;
+  color: #66BFBF;
+  margin: 50px auto 0 auto;
   font-family: 'Sacramento', cursive;
 }
 
 h2 {
+  font-size: 2.5rem;
+  color: #66BFBF;
   font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  padding-bottom: 10px;
 }
 
 h3 {
+  color: #11999E;
   font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+  width: 5%;
+  border-width: 6px;
+  border-style: dotted none none none;
+  border-color: #EAF6F6;
+  margin: 100px auto;
+}
+
+p {
+  line-height: 2;
 }
 
 /* Class selectors: */
 .top-container {
-  background-color: #36b5b0;
+  background-color: #9dd8c8;
   position: relative;
   padding-top: 100px;
 }
 
 .middle-container {
+  margin: 100px 0;
 }
 
 .bottom-container {
+  padding-top: 50px;
+  padding-bottom: 20px;
+  background-color: #66BFBF;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
 }
 
 .bottom-cloud {
   position: absolute;
-  left: 300px;
+  left: 250px;
   bottom: 300px;
 }
 
 .top-cloud {
   position: absolute;
-  top: 50px;
+  top: 40px;
   right: 350px;
 }
 
@@ -47,6 +76,71 @@ h3 {
   padding-top: 100px;
 }
 
-.small-images {
-  height: 200px;
+.coding-image {
+  width: 25%;
+  float: left;
+  margin-right: 60px;
+}
+
+.gym-image {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.profile-image {
+  width: 12.5%;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.footer-link {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  color: #EAF6F6;
+}
+
+.copyright {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.contact-button {
+	box-shadow: 0px 1px 0px 0px #EAF6F6;
+	background:linear-gradient(to bottom, #66bfbf 5%, #11999e 100%);
+	background-color:#66bfbf;
+	border-radius:6px;
+	border:1px solid #11999e;
+	display:inline-block;
+	cursor:pointer;
+	color:#EAF6F6;
+	font-family:'Montserrat', sans-serif;
+	font-size:20px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #5b6178;
+}
+.contact-button:hover {
+	background:linear-gradient(to bottom, #11999e 5%, #66bfbf 100%);
+	background-color:#11999e;
+}
+.contact-button:active {
+	position:relative;
+	top:1px;
 }
